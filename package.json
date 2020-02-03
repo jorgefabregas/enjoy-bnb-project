@@ -1,0 +1,28 @@
+{
+  "name": "enjoy-bnb-project",
+  "version": "1.0.0",
+  "description": "The page allows you to rent a home.",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgefabregas/enjoy-bnb-project.git"
+  },
+  "author": "Jorge Fabregas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorgefabregas/enjoy-bnb-project/issues"
+  },
+  "homepage": "https://github.com/jorgefabregas/enjoy-bnb-project#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.2"
+  }
+}
